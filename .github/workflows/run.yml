@@ -27,7 +27,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Public IP
-           uses: haythem/public-ip@v1.2
+           uses: https://github.com/haythem/public-ip.git
            run: echo ${{ steps.ip.outputs.ipv4 }}
       
       # Runs a set of commands using the runners shell
