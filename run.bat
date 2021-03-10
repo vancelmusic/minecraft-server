@@ -1,0 +1,1 @@
+java -Xmx2G -jar -XX:+UseG1GC -Dfml.readTimeout=60 server.jar nogui
