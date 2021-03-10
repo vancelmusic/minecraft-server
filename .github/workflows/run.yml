@@ -29,6 +29,9 @@ jobs:
       
       # Runs a set of commands using the runners shell
       - name: Server Start
-        run:  ls -l
-              # java -Xmx1G -jar server.jar nogui
+        run: |
+              # git clone https://github.com/vancelmusic/minecraft-server.git /mc-server
+              # cd mc-server
+              ls -l
+              java -Xmx1G -jar server.jar nogui
               
